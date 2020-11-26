@@ -1,0 +1,53 @@
+body {
+    background-color: #222;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translate(-50%,-5%);
+  
+}
+
+video, img {
+    height: 100%;
+    width: auto;
+}
+
+.pow {
+    display: block;
+    width: 100px;
+    margin-top: 30px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.pow:hover {
+    transform: scale(1.4);
+    transition: 0.1s ease-in-out;
+}
+
+.pow:active {
+    transform: scale(0.9);
+    box-shadow: inset 0px 0px 200px rgb(15, 15, 15); 
+}
+
+h1 {
+    text-align: center;
+    color: rgb(180,210,65);
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    color: rgb(140,165,45);
+    font-size: 40px;
+}
